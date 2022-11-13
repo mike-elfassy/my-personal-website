@@ -1,3 +1,46 @@
-body {
-    background: blue;
+header {
+  text-align: center;
+  background: url('https://i.imgur.com/kF2A9WG.jpg');
+  background-size: cover;
+  color: white;
+  padding: 40px 0 0 0;
+}
+h1 {
+  font-size: 70px;
+  margin: 0px;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.nav{
+  color: white;
+}
+.inline-photo {
+  margin: 5px;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
   }
+  li {
+    padding: 5px;
+    display: block;
+  }
+} 
