@@ -1,4 +1,7 @@
-const input = document.getElementsByTagName('button')[0];
-input.addEventListener('click', function() {
-  alert('I was clicked!');
-});
+const likeButtons = document.getElementsByTagName('button');
+
+for (const likeButton of likeButtons) {
+    likeButton.addEventListener('click', function() {
+        alert('Thanks for liking my photo!');
+      });
+}
